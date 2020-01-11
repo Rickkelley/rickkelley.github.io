@@ -1,3 +1,4 @@
+body { justify-content: center;}
 
 a:hover {
   text-decoration: none;
@@ -27,4 +28,9 @@ a:hover {
      width: 76%;
      padding: 8px;
      }
-	
+  
+     #rectangle {
+      width: 1200px;
+      height: 100px;
+      background: #d5b942;
+    }
