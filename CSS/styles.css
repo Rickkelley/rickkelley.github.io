@@ -8,6 +8,7 @@ a:hover {
   background-color: #d5b942;
   color: black;
   text-align: center;
+  border-radius: 16px
 }
   
 img { float: right;}
