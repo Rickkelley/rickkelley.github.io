@@ -5,9 +5,9 @@ a: hover {
   text-decoration: none;
 }
 
-h1 {  text-align: center;
-      border-color: #d5b942;  
-}
+header { background-color: #d5b942; }
+
+h1 {  text-align: center; }
 h2 {   text-align: center;
 
   border-bottom: 1px solid rgb(14, 12, 12);
@@ -22,7 +22,7 @@ header img {
 }
 
 footer{
-  background=color: #d5b942;
+  background-color: #d5b942;
   color: black;
   text-align: center;
 
