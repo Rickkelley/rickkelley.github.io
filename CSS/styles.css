@@ -1,36 +1,25 @@
-body { justify-content: center;}
+body { font-size: 20px;}
 
 a:hover {
   text-decoration: none;
 }
-#row1 {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	color: black;
-	background-color: #7ca6bb;
-	
-}
 
-#row2 {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	color: black;
-	background-color: #7ca6bb;
-	
+{header
+  background-color: #d5b942;
+  color: black;
+  text-align: center;
 }
-
-#photo {
-     margin: auto;
-     width: 76%;
-     padding: 8px;
-     }
   
+img { float: right;}
+
+footer{
+  background=color: #d5b942;
+  color: black;
+  text-align: center;
+
+}
      #rectangle {
       width: 1200px;
       height: 100px;
-      background: #d5b942;
+      background: ; #d5b942;
     }
