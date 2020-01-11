@@ -2,9 +2,22 @@
 a:hover {
   text-decoration: none;
 }
-row1, #row2 {
+#row1 {
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+	color: black;
+	background-color: #7ca6bb;
+	
+}
+
+#row2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: black;
+	background-color: #7ca6bb;
+	
 }
