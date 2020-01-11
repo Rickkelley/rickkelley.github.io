@@ -10,13 +10,13 @@ h2 {   text-align: center;
 }
 
 {header
-  border: 40px
   background-color: #d5b942;
-  color: black;
   text-align: center;
+  }
   
-}
-  
+header h1 { margin:0;
+            padding: 0; }
+
 header img { float: right;
       width:140px;
       height:142px;
