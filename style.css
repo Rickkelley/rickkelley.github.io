@@ -1,9 +1,6 @@
 body { font-size: 20px;
-  font-family: Tahoma, Geneva, sans-serif;}
-
-a: hover {
-  text-decoration: none;
-}
+      font-family: Tahoma, Geneva, sans-serif;
+       background-color: azure; }
 
 header { background-color: #d5b942;
           padding: 0.2em 1em;
