@@ -1,11 +1,55 @@
 
-body {<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
-       }
-
-main {
+body {font-family: 'Raleway', sans-serif; font-size: 16px; box-sizing;}
+header, footer {font-family: 'Raleway', sans-serif;}
+.gridarea {
       display: grid;
+      grid-gap: 8px;
+      max-width: 770px;
+      margin: 0 auto;
       grid-template-columns: 1fr;
-      font-size: 0.8rem;
-}
+      grid-template-areas: 
+      "header"
+      "footer"
+      "main"
+      }
+
+      header, main, footer {
+            border: 1px solid #333;
+            box-shadow: 0 0 10px #000;
+      }
  
+      header {
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            padding: 7px;
+            grid-area: header;
+            justify-content:center;
+            align-items:center;
+      }
+
+      h2 {font-size: 1rem;}
+      main {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+            padding: 5px;
+            grid-area: main;
+      }
+      section {padding:7px;}
+      section p {margin-left: 16px}
+
+      picture {
+            align-items:center;
+            text-align:center;
+      }
+      footer {
+                  background-color: black;
+                  color: white;
+                  padding: 7px;
+                  font-size: smaller;
+                  grid-area: footer;
+                  text-align:center;
+            }
+
+      
