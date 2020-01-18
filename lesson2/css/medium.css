@@ -1,8 +1,22 @@
-@media only screen and (min-width: 32em) {
-	.gridarea {
-		grid-template-columns: 1fr 1fr;
-		grid-template-areas:
-    "header  header"
-		"main main"
-		"footer  footer";
+@media only screen and (min-width: 550px) {
+
+    .section1, .section2, .section3 {
+      
+        
+        padding-bottom: .5rem;
     }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
+
+
+}

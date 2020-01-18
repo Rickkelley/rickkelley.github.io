@@ -1,9 +1,13 @@
-@media only screen and (min-width: 42em) {
-	.gridarea {
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-areas:
-    "header  header  header"
-		"main main main"
-		"footer  footer  footer";
+@media only screen and (min-width: 1024px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
     }
     
+    div.news {
+        column-count: 3;
+    }
+    
+    }

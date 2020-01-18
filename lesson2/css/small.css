@@ -1,51 +1,54 @@
 
-body {font-family: 'Raleway', sans-serif; font-size: 16px; box-sizing;}
-header, footer {font-family: 'Raleway', sans-serif;}
-.gridarea {
-      display: grid;
-      grid-gap: 8px;
-      max-width: 770px;
-      margin: 0 auto;
-      grid-template-columns: 1fr;
-      grid-template-areas: 
-      "header"
-      "footer"
-      "main"
-      }
 
-      header, main, footer {
-            border: 1px solid #333;
-            box-shadow: 0 0 10px #000;
-      }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
  
       header {
             background-color: whitesmoke;
-            display: grid;
-            grid-template-columns: 200px 1fr;
-            padding: 7px;
-            grid-area: header;
-            justify-content:center;
-            align-items:center;
+		text-align: center;
+		padding: 2rem 2%;
+		font-family: 'Raleway', sans-serif;
       }
 
-      h2 {font-size: 1rem;}
+      h1, h2, h3, h4, h5, h6 {
+		  font-family: 'Raleway', sans-serif;;
+	  }
       main {
             display: grid;
             grid-template-columns: 1fr;
-            grid-gap: 5px;
-            padding: 5px;
-            grid-area: main;
-      }
-      section {padding:7px;}
-      section p {margin-left: 16px}
+            padding: 10px;
+                }
+section {    border-radius: 15px;
+			 margin-top: 20px;
+} 
 
-      picture {
-            align-items:center;
-            text-align:center;
+section header {
+   background-color: #b0dfe5;
+   border-radius: 15px 15px 0px 0px;
+}
+    
+	p {
+        font-size: 16px;
+        font-family: Raleway, sans-serif;
+        line-height: 1.5;
+        padding: 10px;
+}
+
+a {
+    word-wrap: break-word;
+}
       }
+	  img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    
+}
       footer {
-                  background-color: black;
-                  color: white;
+                  background-color: #87ceeb ;
+                  color: black;
                   padding: 7px;
                   font-size: smaller;
                   grid-area: footer;
