@@ -1,2 +1,2 @@
-var year = new Date(),
-new Date().getFullYear()
+var year = today.getfullyear();
+document.getElementById("year");
