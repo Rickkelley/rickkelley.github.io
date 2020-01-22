@@ -1,4 +1,2 @@
-<span id="change"></span>. 
-<script>
+var change= new Year();
 document.getElementById("change").innerHTML = document.lastModified;
-</script>
