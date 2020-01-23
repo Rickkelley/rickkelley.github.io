@@ -1,6 +1,5 @@
-function year() {
-var d = new Date();
-var n = d.getFullYear();
-currentyear.innerHTML = n;
-}
-window.onload = year
+
+
+let date = new Date();
+
+document.getElementById("current-year").textContent = document.getElementById("current-year").textContent + " " + date.getFullYear();

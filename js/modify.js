@@ -1,2 +1,2 @@
-var change= new Year();
-document.getElementById("change").innerHTML = document.lastModified;
+
+document.getElementById("last-modified-date").textContent = document.lastModified;

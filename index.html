@@ -27,8 +27,7 @@
  <ul>
      <li> Ranch Project: <a href=Ranch/index.html>Ranch Project</a></li>
      <li> Lesson 02:     <a href=lesson2/design-principles.html> Design Principles</a> </li>
-     <li> Lesson 03:     <a href=lesson3/index.html>Weather Forecast Design!</a> </li>
-
+     <li> Lesson 03:     <a href=lesson3/index.html>Weather Forecast</a> </li>
      <li> Lesson 04:     <a href=http://www.example.com> Assignment Link</a> </li>
      <li> Lesson 05:     <a href=http://www.example.com> Assignment Link</a> </li>
      <li> Lesson 06:     <a href=http://www.example.com> Assignment Link</a> </li>
@@ -44,11 +43,16 @@
 </nav>
 
 <footer>
-<script src="js/info.js"></script>    
-<h3> &#169; <span id="whatyear"></span>  | Rick Kelley | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></h3>
+ 
+<h3> <span id="current-year">&#x24B8;</span>  | Rick Kelley | Utah | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></h3>
 <p></p>
-<h3> This document was last modified; <span id="modify"></span> 
+<h3>     <div id="last-modified-container">
+    <span id="last-modified-label">Last Updated:</span>
+    <span id="last-modified-date"></span>
+  </div>
 </h3>
-</footer>	    
+</footer>	
+<script src="js/modify.js"></script>    
+<script src="js/year.js"></script>
 </body>
 </html>
