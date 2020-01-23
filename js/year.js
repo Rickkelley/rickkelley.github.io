@@ -1,4 +1,6 @@
-
+function year() {
 var d = new Date();
 var n = d.getFullYear();
-document.getElementById("year").innerHTML = n;
+currentyear.innerHTML = n;
+}
+window.onload = year
