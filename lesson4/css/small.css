@@ -1,5 +1,23 @@
+header-img {
+	width:100px;
+	height:auto;
+	float: left
+	padding: 2px;
+	}
+
+main {
+	text-align:center;
+	}
+	.place-holder-content{ 
+		border: 2px dashed; 
+		margin: 14px;
+		padding: 4px;
+	}
+
+
 h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
 
 body {
@@ -86,14 +104,14 @@ footer {
 }
 .navigation a {
 	display: block;
-	color: #fff;
+	color: grey;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
 }
 .navigation a:hover {
 	color: #000;
-	background-color: #fff;
+	background-color: grey;
 	font-weight: 700;
 }
 
@@ -114,7 +132,7 @@ footer {
 		flex: 1 1 100%;
 	}
 	.navigation li a {
-		color: yellow;
+		color: yellowgreen;
 		text-align: center;
 	}
 	
