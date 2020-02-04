@@ -25,8 +25,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-header,
-footer {
+header {
 	background-color: #e6e600;
 	display: flex;
 	flex-flow: column;
@@ -139,4 +138,21 @@ footer {
 	.navigation li:first-child {
 		display: none;
 	}
+}
+
+#social li{
+	display: inline;
+}
+
+.footer {
+	text-align: center;
+    background-color:#e6e600;
+    border-top: 1px solid black;
+    height: 200px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
 }
