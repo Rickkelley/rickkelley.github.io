@@ -94,13 +94,21 @@ footer {
 }
 
 .overlay {
-	position: relative;
+	position: fixed;
 	top: 32px;
 	left: 298px;
 	color: black;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: turquoise;opacity: 0.8;
+	background-color: skyblue; opacity: 0.8;
 }
 
+.5day {
+position: fixed;
+top: 32px;
+right: 40px;
+padding-left: 2px;
+padding-right: 2px;
 
+
+}
