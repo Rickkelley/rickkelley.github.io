@@ -40,8 +40,8 @@ main,
 footer {
     font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
-	max-width: 780px;
-	max-height: 500px;
+	max-width: 800px;
+	max-height: 400px;
 }
 h1 {
 	font-size: 2rem;
