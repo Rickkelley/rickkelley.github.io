@@ -89,5 +89,18 @@ footer {
     color: white;
   }
 
+  .hero {
+	position: relative;
+}
+
+.overlay {
+	position: relative;
+	top: 32px;
+	left: 298px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: turquoise;opacity: 0.8;
+}
 
 

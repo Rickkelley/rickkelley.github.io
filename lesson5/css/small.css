@@ -156,3 +156,17 @@ footer {
     position: relative;
     width: 100%;
 }
+
+.hero {
+	position: relative;
+}
+
+.overlay {
+	position: relative;
+	top: 32px;
+	left: 8px;
+	color: black;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-color: turquoise;opacity: 0.8;
+}
