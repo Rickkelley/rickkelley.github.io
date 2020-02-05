@@ -39,9 +39,9 @@ nav,
 main,
 footer {
     font-family: 'Roboto', sans-serif;
-	max-width: 767px;
 	margin: 0 auto;
 	max-width: 780px;
+	max-height: 500px;
 }
 h1 {
 	font-size: 2rem;
