@@ -144,19 +144,6 @@ footer {
 	display: inline;
 }
 
-.footer {
-	text-align: center;
-    background-color:#e6e600;
-    border-top: 1px solid black;
-    height: 200px;  /* footer height */
-    padding-top: 20px;
-    display: block;
-    margin-top: 20px; /* space between content and footer */
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-}
-
 .hero {
 	position: relative;
 	width: 90%;
@@ -170,8 +157,28 @@ footer {
 	position: fixed;
 	top: 6px;
 	left: 2px;
-	color: pink;
+	color: black;
 	padding-left: 1px;
 	padding-right: 1px;
 	background-color: skyblue; opacity: 0.8;
+}
+
+.article {
+	position: relative;
+	color: black;
+	background-color: whitesmoke;
+
+}
+
+.footer {
+	text-align: center;
+    background-color:#e6e600;
+    border-top: 1px solid black;
+    height: 200px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
 }
