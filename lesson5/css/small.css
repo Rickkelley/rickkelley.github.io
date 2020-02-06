@@ -1,3 +1,9 @@
+aside {
+	background-color: violet;
+	text-align: center;
+	color: white;
+}
+
 header-img {
 	width:100px;
 	height:auto;
