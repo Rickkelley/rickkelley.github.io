@@ -173,8 +173,9 @@ footer {
 .footer {
 	text-align: center;
     background-color:#e6e600;
-    border-top: 1px solid black;
-    height: 200px;  /* footer height */
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+    height: 120px;  /* footer height */
     padding-top: 20px;
     display: block;
     margin-top: 20px; /* space between content and footer */
