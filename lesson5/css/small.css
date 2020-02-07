@@ -43,27 +43,23 @@ header {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	padding: 6px 0;
 	margin: 4 auto;
+	font-family: 'Roboto', sans-serif;
 }
 
-header,
-nav,
 main,
-footer {
+ {
     font-family: 'Roboto', sans-serif;
-	max-width: 800px;
-	max-height: 400px;
 }
-h1 {
-	font-size: 2rem;
-}
+
 
 nav {
 	background-color: black;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
 	
 }
 nav ul {
@@ -92,6 +88,8 @@ caption {
 footer {
 	flex: 0 1 100%;
 	height: 4rem;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
 .section--1 {
     font-family: 'Roboto', sans-serif;
@@ -126,9 +124,7 @@ footer {
 	font-weight: 700;
 }
 
-/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-  */
+
 .responsive li {
 	display: block;
 }
@@ -146,6 +142,7 @@ footer {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border: 2px solid #999
+	padding 2px;
 }
 
 .overlay {
@@ -153,8 +150,7 @@ footer {
 	top: 6px;
 	left: 2px;
 	color: black;
-	padding-left: 1px;
-	padding-right: 1px;
+	padding: 2px;
 	background-color: skyblue; opacity: 0.8;
 }
 
@@ -164,7 +160,7 @@ footer {
 	background-color: whitesmoke;
 	font-size: 8pt;
 	margin: 2px;
-	
+	padding: 4px;
 
 
 }
@@ -181,4 +177,24 @@ footer {
     box-sizing: border-box;
     position: relative;
     width: 100%;
+}
+
+#preston #navigation .preston .navigation {
+	font-weight: bold;
+	color: white;
+}
+
+.col {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	background-color: #eeeeee;
+	flex: 1 1 100%;
+	font-size: 13px;
+	text-align: center;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	position: relative;
 }
