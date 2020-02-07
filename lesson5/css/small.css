@@ -198,3 +198,8 @@ footer {
 	flex-direction: row;
 	position: relative;
 }
+
+.active {
+	background-color: #ffffff;
+	color: #000000;
+}
