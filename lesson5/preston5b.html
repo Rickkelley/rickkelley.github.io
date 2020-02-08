@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment Portal for Rick Kelley</title>
+    <meta name="author" content= "Rick Kelley">
+    <meta name="description" content= "Assignment portal for Rick Kelley in CIT 230: Web Frontend Development at Brigham Young University - Idaho"> 
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P%7cReenie+Beanie%7cShadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    
+    
+    
+
+</head>
+
+<body onload="checkdate()">
+   
+    <header>
+       
+            <h2> <img src="images/weather7.jpg" alt="logo of sun behind clouds"> Your Weather Place</h2>
+            
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+            </ul>
+
+    </nav>
+
+    <main>
+        <p id="friday"></p>
+        <div class="mw1">
+            <h1> Preston Idaho </h1>
+            <div class = "hero" > <img src ="images/sky.jpg" alt = "Cityscape">  </div> 
+            <div class = "overlay"> 
+                <h3>Preston Weather Summary</h3>
+                <p>Currently: Snow</p>
+                <p>High: 23 &#8457; </p>
+                <p>Low: 20 &#8457; </p>
+                <p>Humidity: 78%</p>
+                <p>Wind Speed: 18 mph</p>
+                 </div> </div>
+                
+        <div class="place-holder-content"> 5 Day Forecast </div>
+        <div class="place-holder-content"> Article </div>
+        <div class="place-holder-content"> Contact Information </div>
+
+    </main>
+
+   
+        <footer>
+        <h3> <span id="current-year">&#x24B8;</span>  | Your Weather Place | Designed by Rick Kelley | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></h3>   
+        <span id="datetoday"></span>
+        </footer>
+   
+<script src = "js/toggle.js"></script>
+<script src = "js/date.js"></script>
+<script src = "js/year.js"></script>
+<script src = "js/friday.js"></script>
+
+    </body>
+    </html>
