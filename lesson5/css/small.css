@@ -16,10 +16,11 @@ header-img {
 		max-width: 300px;
 		position: relative;
 		height: auto;
+		padding-top: 60px;
 	}
 	#overlay {
 		position: absolute;
-		top: 100px;
+		top: 120px;
 		left: 16px;
 		background-color: skyblue;
 		opacity: .8;
@@ -84,23 +85,27 @@ header {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 8px;
-	height: 184px;
+	padding-bottom: 18px;
+	height: 160px;
+	position: relative;
+	top:0px;
+	left:0px;
+	width: 100%;
 }
-/*footer {
+
+.contact {
+	padding-top:16px;
+}
+
+footer {
 	background-color: #e6e600;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 8px;
-	height: auto;
 	width: 100%;
 	border-top: 1px black solid;
-}
-*/
-footer {
-	background-color: blue;
+	margin-top: 4px;
+	height: auto;
+	position: fixed;
+	left: 0px;
+	bottom:0px;
 }
 
 nav {
@@ -191,7 +196,11 @@ nav ul li.active a {
 	max-height: 400px;
 }
 
-ul#social li {
+#social li {
+	display: inline;
+}
+
+#social {
 	display: inline;
 }
 .contact {
@@ -258,4 +267,10 @@ ul#social li {
 	  .fa-skype {
 		background: #00aff0;
 		color: white;
+	  }
+
+	  .place-holder-content {
+
+		border: 2px black dashed;
+		
 	  }
