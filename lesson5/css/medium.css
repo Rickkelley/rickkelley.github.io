@@ -1,54 +1,77 @@
-@media only screen and (min-width: 700px) {
-    .site-plan-navigation{
-        color: white;
-        text-align: center;
+@media only screen and (min-width: 37.5em) {
+
+    nav ul { display: flex; }
+    .navigation {
+      display: flex;
     }
-    #nav-menu-toggle-label{
-        display: none;
+    .navigation li {
+      display: block; /* needed because of state in small view */
+      flex: 1 1 100%;
     }
-    #nav-items{
-        display: block;
+    .navigation li a {
+      color: yellowgreen;
+      text-align: center;
     }
-    .nav-item{
-        display: inline-block;
+    
+    .navigation li:first-child {
+      display: none;
     }
-    .nav-item:hover{
-        font-size: 1.2em;
-        padding: 3px 1%;
-    }
-    .nav-item:last-child:hover,
-    .nav-item:first-child:hover{
-        font-size: 1.2em;
-        padding: 3px 1.5%;
-    }
-    footer.site-footer{
-        font-size: 1.1em;
-    }
-    .site-header-title{
-        font-size: 37px;
-    }
-    h1.page-title{
-        font-size: 34px;
-    }
-    main.main-content-container{
-        font-size: 1.1em;
-    }
-    #forecast-section{
-        display: block;
-    }
-    .carnival-image{
-        width: 600px;
-        margin: 0 auto;
-    }
-    .preston-map{
-        display: block;
-    }
-    .contact-map-container{
-        display: flex;
-        justify-content: space-between;
-        margin: 15px 10% 15px 15px;
-    }
+  }
+        nav ul li { flex: 1 1 100%; }
+
+
+nav a {
+    font-size: 1rem;
 }
-.weather-summary-banner{
+main {
+    grid-template-columns: 1fr 1fr;
+}
+article:nth-child(3) {
+    grid-column: span 2;
+}
+main picture {
+    display: block;
+}
+main picture img {
     width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 1767px;
+	margin: 0 auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size:30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 2px;
+}
+
+
+)
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellowgreen;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
 }

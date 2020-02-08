@@ -4,11 +4,7 @@ header-img {
 	float: left;
 	padding: 2px;
 	}
-.pancake-friday {
-	background-color: violet;
-	top:0px;
-	position: absolute;
-}
+
 main {
 	text-align:center;
 	}
@@ -29,8 +25,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-header,
-footer {
+header, footer {
 	background-color: #e6e600;
 	display: flex;
 	flex-flow: column;
@@ -44,12 +39,8 @@ nav,
 main,
 footer {
     font-family: 'Roboto', sans-serif;
-	max-width: 767px;
 	margin: 0 auto;
 	max-width: 780px;
-}
-h1 {
-	font-size: 2rem;
 }
 
 nav {
@@ -148,4 +139,69 @@ nav ul li.active a {
 	.navigation li:first-child {
 		display: none;
 	}
+}
+#social {
+	display: flex;
+	flex-direction: row;
+}
+.fa {
+	padding: 10px;
+	font-size: 15px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+ 
+	  .fa:hover {
+		  opacity: 0.7;
+	  }
+	  
+	  .fa-facebook {
+		background: #3B5998;
+		color: white;
+	  }
+	  
+	  .fa-twitter {
+		background: #55ACEE;
+		color: white;
+	  }
+	  
+	  .fa-google {
+		background: #dd4b39;
+		color: white;
+	  }
+	  
+	  .fa-linkedin {
+		background: #007bb5;
+		color: white;
+	  }
+	  
+	  .fa-youtube {
+		background: #bb0000;
+		color: white;
+	  }
+	  
+	  .fa-instagram {
+		background: #125688;
+		color: white;
+	  }
+	  
+	  .fa-pinterest {
+		background: #cb2027;
+		color: white;
+	  }
+	  
+	  .fa-snapchat-ghost {
+		background: #fffc00;
+		color: white;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	  }
+	  
+	  .fa-skype {
+		background: #00aff0;
+		color: white;
+
+		display: none;
+	  }
 }
