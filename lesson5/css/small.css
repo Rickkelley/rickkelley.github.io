@@ -4,6 +4,10 @@ header-img {
 	float: left;
 	padding: 2px;
 	}
+	body {
+		position: relative;
+		padding-bottom: 50px;
+	}
 
 	.mwi {
 		margin:10px;
@@ -69,7 +73,10 @@ body {
 }
 .contact {
 	margin: 2px;
-
+}
+#address {
+	height: auto;
+	display: block;
 }
 header {
 	background-color: #e6e600;
@@ -80,28 +87,25 @@ header {
 	padding: 8px;
 	height: 184px;
 }
-footer {
+/*footer {
 	background-color: #e6e600;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 8px;
-	height: 400px;
+	height: auto;
+	width: 100%;
 	border-top: 1px black solid;
 }
-header,
-nav,
-main,
+*/
 footer {
-    font-family: 'Roboto', sans-serif;
-	margin: 0 auto;
-	max-width: 780px;
+	background-color: blue;
 }
 
 nav {
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: 100%;
 	background-color: #000;
 }
 .navigation {
@@ -116,14 +120,14 @@ nav {
 }
 .navigation a {
 	display: block;
-	color: #fff;
+	color: gold;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
 }
 .navigation a:hover {
 	color: #000;
-	background-color: #fff;
+	background-color: gold;
 	font-weight: 700;
 }
 
@@ -136,13 +140,9 @@ nav {
 
 
 caption {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
-footer {
-	flex: 0 1 100%;
-	height: 4rem;
-}
 .section--1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px
@@ -187,29 +187,20 @@ nav ul li.active a {
 .responsive li {
 	display: block;
 }
+.contact {
+	max-height: 400px;
+}
 
-/* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* needed because of state in small view */
-		flex: 1 1 100%;
-	}
-	.navigation li a {
-		color: yellowgreen;
-		text-align: center;
-	}
-	
-	.navigation li:first-child {
-		display: none;
-	}
+ul#social li {
+	display: inline;
 }
-#social {
-	display: flex;
-	flex-direction: row;
+.contact {
+	height: auto;
 }
+#map {
+	display:none;
+}
+
 .fa {
 	padding: 10px;
 	font-size: 15px;
@@ -267,7 +258,4 @@ nav ul li.active a {
 	  .fa-skype {
 		background: #00aff0;
 		color: white;
-
-		display: none;
 	  }
-}

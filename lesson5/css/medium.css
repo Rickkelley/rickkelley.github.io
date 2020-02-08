@@ -1,32 +1,7 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 38em) {
 
-    nav ul { display: flex; }
-    .navigation {
-      display: flex;
-    }
-    .navigation li {
-      display: block; /* needed because of state in small view */
-      flex: 1 1 100%;
-    }
-    .navigation li a {
-      color: yellowgreen;
-      text-align: center;
-    }
-    
-    .navigation li:first-child {
-      display: none;
-    }
-  }
-        nav ul li { flex: 1 1 100%; }
-        #gun {
-          height: auto;
-          max-width: 600px;
-          float: right;
-          margin: 2px;
-          padding: 1px;
-        }
 #hero {
-  max-width: 690px;
+  max-width: 34em;
 }
 nav a {
     font-size: 1rem;
@@ -46,6 +21,11 @@ footer {
 	margin: 0 auto;
 }
 
+#map {
+  display: block;
+  float: left;
+  height: auto;
+}
 
 	.navigation {
 		display: flex;
@@ -68,4 +48,7 @@ article img {
   box-shadow:  0 0 30px #444;
   float: right;
   border-radius: 0 10px 0 0;
+}
+#gun {
+  max-width: 30em;
 }
