@@ -11,8 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P%7cReenie+Beanie%7cShadows+Into+Light+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 
     </head>
 
@@ -42,7 +43,7 @@
 
 
     <main>
-        <div class="mw1">
+        <div class="mwi">
         <h1> Preston Idaho </h1>
         <div class = "insert" id="hero" > <img src ="images/sky2.jpg" alt = "Cityscape">   
         <div class = "insert" id ="overlay"> 
@@ -56,41 +57,54 @@
             </div> </div>
        
 
-       
-        <h3>Five Day Forecast</h3>    
-        <div class = "forecast">
-                <div class = "day">
-                <span class="label">Friday</span>
+            <div class = "forecast">
+        <h3>Five Day Forecast</h3>  
+        
+        <div class="flex">
+            <div class="col">
+                <span class="label">Sun</span>
                 <img src="images/snow.png" alt = "Snowy" >
                 <span class="data">18&#8457;</span>
-                <span class="label">Saturday</span>
+            </div>
+            <div class="col">
+                <span class="label">Mon</span>
                 <img src="images/snow.png" alt = "Snowy" >
                 <span class="data">8&#8457;</span>
-                <span class="label">Sunday</span>
+            </div>
+            <div class="col">
+                <span class="label">Tue</span>
                 <img src="images/snow.png" alt = "Snowy" >
-                <span class="data">28&#8457;</span>
-                <span class="label">Monday</span>
+                <span class="data">20&#8457;</span>
+            </div>
+            <div class="col">
+                <span class="label">Wed</span>
                 <img src="images/snow.png" alt = "Snowy" >
-                <span class="data">32&#8457;</span>
-                <span class="label">Tuesday</span>
+                <span class="data">34&#8457;</span>
+            </div>
+            <div class="col">
+                <span class="label">Thur</span>
                 <img src="images/snow.png" alt = "Snowy" >
-                <span class="data">2&#8457;</span>
-                            </div> </div>
+                <span class="data">30&#8457;</span>
+            </div>
+        </div>
+        
+
 
                   
 
 
         <div class="article"> 
             <h2>Restrooms proposed at gun range</h2><p></p>
-            <p><i>Notes taken from the last Franklin County board of Commissioners meeting. Held January 27th, 2020</i></p><p></p>
+            <img id="gun" src ="images/gun.jpg" alt= "gun-range">
             <p> At their meeting held January 27th, 2020 the Franklin County Commissioners discussed the Refunding Revenue Bond which is part of their refunding resolution for the expansion of the Franklin County Medical Center during the Jan. 27 meeting. A revenue bond is a municipal bond supported by the revenue from a specific project, in this case the hospital. The bond in question is due to be paid off by January 2050, if paid off sooner there is no penalty. The hospital’s expansion was slated to cost close to $14 million, but $8.8 million was spent. Since the bond will be paid for by the hospital and not the county there will be no tax increase.</p>
               
             <p>Another item on the agenda was a grant petition to update the facilities at the Larry Biggs Gun Range. It has been proposed that a bathroom be constructed to replace the porta potty that’s there now. The county has applied for a grant through Idaho Fish and Game to finance the project. </p>
         </div>
 
-        <div class="contact"> Contact Information 
+        <div class="contact"> <h1> Contact Information </h1>
             <p> &#x1F4DE; 208-555-5555 </p>
             <p> 8888 Weather Ave Preston Id 83263 </p>
+            <p><img src="images/email.png" alt ="E-mail address"> yourweatherplace@comcast.net</p>
             <ul id=social>
             <li><a href="http://www.facebook.com" class="fa fa-facebook"></a></li>
             <li><a href="http://www.twitter.com" class="fa fa-twitter"></a></li>
@@ -101,7 +115,6 @@
             <li> <a href="http://ww.pintrest.com" class="fa fa-pinterest"></a> </li>
             <li> <a href="http://www.snapchat.com" class="fa fa-snapchat-ghost"></a> </li>
             <li><a href="http://www.skype.com" class="fa fa-skype"></a> </li>
-
             </ul>
         </div> 
     </main>

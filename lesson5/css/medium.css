@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 700px) {
 
     nav ul { display: flex; }
     .navigation {
@@ -18,8 +18,16 @@
     }
   }
         nav ul li { flex: 1 1 100%; }
-
-
+        #gun {
+          height: auto;
+          max-width: 600px;
+          float: right;
+          margin: 2px;
+          padding: 1px;
+        }
+#hero {
+  max-width: 690px;
+}
 nav a {
     font-size: 1rem;
 }
@@ -28,14 +36,6 @@ main {
 }
 article:nth-child(3) {
     grid-column: span 2;
-}
-main picture {
-    display: block;
-}
-main picture img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #bbb;
 }
 
 header,
@@ -46,19 +46,7 @@ footer {
 	margin: 0 auto;
 }
 
-.fa {
-  padding: 20px;
-  font-size:30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 6px 2px;
-}
 
-
-)
-/* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
 	.navigation {
 		display: flex;
 	}
@@ -74,4 +62,10 @@ footer {
 	.navigation li:first-child {
 		display: none;
 	}
+}
+
+article img { 
+  box-shadow:  0 0 30px #444;
+  float: right;
+  border-radius: 0 10px 0 0;
 }
