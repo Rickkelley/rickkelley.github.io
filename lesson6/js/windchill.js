@@ -6,5 +6,15 @@ let windchill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windspeed, 0.
 
 windchill = Math.round(windchill);
 
-document.getElementById("chill").textContent = "Wind Chill Temperature:  " + windchill + " ℉";
+if (temperature <51 && windspeed >3) {
+    document.getElementById("chill").textContent = "Wind Chill Temperature:  " + windchill + " ℉";
+    
+}
 
+else 
+{
+    document.getElementById("chill").textContent = "Wind Chill Temperature: N/A ";
+
+        
+
+}
