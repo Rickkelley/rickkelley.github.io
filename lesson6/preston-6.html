@@ -48,17 +48,17 @@
         <div class = "insert" id="hero" >
             <picture>
                 <source srcset ="images/mediumhero.jpg" media ="(min-width:500px) and (max-width:799px)">
-                <source srcset="images/largehero.jpg" media="(min-width:800px">
-                <imgsrc="images/smallhero.jpg" alt="clouds over a grassy meadow">
+                <source srcset="images/largehero.jpg" media="(min-width:800px)">
+                <img src="images/smallhero.jpg" alt="clouds over a grassy meadow">
                 </picture>
   
         <div class = "insert" id ="overlay"> 
             <h3>Preston Weather Summary</h3>
             <p>Currently: Snow</p>
-            <p>High: 23 &#8457; </p>
-            <p>Low: 20 &#8457; </p>
-            <p>Humidity: 79%</p>
-            <p>Wind Speed: 18 mph</p>
+            <p>Temperature:<span id="temp"> 18 </span> &#8457; </p>
+            <p>Humidity: 88%</p>
+            <p>Wind Speed: <span id="speed"> 20</span> mph</p>
+            <p id="chill"></p>
         </div>
             </div> </div>
        
@@ -140,6 +140,7 @@
 <script src = "js/toggle.js"></script>
 <script src = "js/date.js"></script>
 <script src = "js/year.js"></script>
+<script src = "js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
     webfont.load ({
