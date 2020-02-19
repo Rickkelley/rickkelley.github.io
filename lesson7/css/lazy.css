@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
 body {
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	font-size: 16px;
+	font-family: 'Noto Serif, serif;'
 }
 
 picture img[data-src] {
