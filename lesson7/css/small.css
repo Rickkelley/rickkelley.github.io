@@ -274,3 +274,53 @@ nav ul li.active a {
 		border: 2px black dashed;
 		
 	  }
+
+	  /*gallery page css*/
+
+div.gallerygrid {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 10px;
+}
+
+.gallerygrid img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0px 0px 10px 0px #ab141a;
+}
+
+.gallery {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: ivory;
+}
+
+.desc {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 10px 10px;
+	border: none;
+	text-align: center;
+	background-color: ivory;
+	
+}
+
+
+
+picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+picture img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+	margin: 5px;
+	
+}
+
+
+
+
+
+/*end of gallery css*/

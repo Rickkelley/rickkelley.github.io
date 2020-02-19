@@ -53,3 +53,14 @@ article img {
   max-width: 30em;
   padding-bottom: 40px;
 }
+
+div.gallerygrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	padding: 10px;
+}
+.desc {
+	padding: 10px;
+	
+}
