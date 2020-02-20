@@ -1,13 +1,14 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 800px {
 	nav a {
 		font-size: 1.1rem;
 	}
-	main {
+	/*main {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
+	*/
 }
 
 
@@ -16,13 +17,11 @@
     max-width: 100%;
     float: right;
     padding: 2px;
-    justify-items: center;
+	justify-items: center;
+	padding-bottom: 252px;
 
 }
 
-#gun {
-    padding-bottom: 250px;
-}
 .contact {
     padding-top:400px;
     width: 100%;
@@ -31,8 +30,6 @@
 .hero {
     width:60em;
 }
-
-/* Gallery */
 
 div.gallgrid {
 	display: grid;

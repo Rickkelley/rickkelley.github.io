@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 600px) {
 
 #hero {
   max-width: 34em;
@@ -54,7 +54,9 @@ article img {
   padding-bottom: 40px;
 }
 
-div.gallerygrid {
+/* Gallery */
+
+div.gallgrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
