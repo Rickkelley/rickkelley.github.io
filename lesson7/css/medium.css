@@ -42,7 +42,7 @@ article:nth-child(3) {
 	.navigation li:first-child {
 		display: none;
 	}
-}
+
 
 article img { 
   box-shadow:  0 0 30px #444;
@@ -65,4 +65,5 @@ div.gallgrid {
 .desc {
 	padding: 10px;
 	
+}
 }
