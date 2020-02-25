@@ -1,0 +1,51 @@
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+
+
+
+
+#gun {
+    max-width: 100%;
+    float: right;
+    padding: 2px;
+    justify-items: center;
+
+}
+
+#gun {
+    padding-bottom: 250px;
+}
+.contact {
+    padding-top:400px;
+    width: 100%;
+}
+
+.hero {
+    width:60em;
+}
+
+/* Gallery */
+
+div.gallgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	padding: 0;
+	}
+
+
+.gall:hover {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff9cc;
+	box-shadow: 0px 0px 10px 0px gray;
+}
+}
