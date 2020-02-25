@@ -2,16 +2,10 @@ html {
     font-family: Ubuntu, sans-serif;
   }
   
-  table {
-    border-collapse: collapse;
-    border: 2px solid gray;
-    letter-spacing: 1px;
-    font-size: 0.8rem;
-  }
-  
-  td, th {
+ td, th {
     border: 1px solid gray;
     padding: 10px 20px;
+    font-family: Ubuntu, sans-serif;
   }
   
   th {
@@ -33,10 +27,6 @@ html {
     background-color: #e7f0ed;
   }
   
-  caption {
-    padding: 10px;
-  }
-
   tfoot {
       background-color: #628ca6;
       color: black;
