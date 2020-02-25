@@ -1,25 +1,23 @@
-html {
-    font-family: Ubuntu, sans-serif;
-  }
-  
- td, th {
-    border: 1px solid gray;
+html, td, th {
     font-family: Ubuntu, sans-serif;
   }
   
   th {
     background-color: #7fb9c2;
     color: black;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   td {
+    border-collapse: collapse;
+    border: 0.1px solid black;
     text-align: center;
     color: black;
+    font-size: 2rem;
   }
   
   tr:nth-child(even) td {
-    background-color: e7ffed;
+    background-color: #e7ffed;
   }
   
   tr:nth-child(odd) td {
@@ -28,7 +26,7 @@ html {
   
   tfoot {
       background-color: #628ca6;
-      color: black;
+      color: goldenrod;
       text-align: center;
 
   }
