@@ -326,19 +326,17 @@ nav ul li.active a {
 	/* Storm Center */
 
 	form fieldset {
-		margin: 2rem 15px;
-		border: 1px solid #ab141a;
+		margin: 2rem 0;
+		border: 1px solid #445ba9;
 		border-radius: 10px;
 		padding: .5rem 2%;
-		font-family: 'Open Sans', sans-serif;
 	}
 	
 	form legend {
-		color: #ab141a;
-		margin: 0 1rem; 
-		padding: 0 .5rem;
+		color: #445ba9;
+		margin: 0 1rem;
+		padding:0 .5rem;
 	}
-	
 	form label.top, form div {
 		display: block;
 		padding-top: 1rem;
@@ -354,62 +352,33 @@ nav ul li.active a {
 		border-radius: 4px;
 		padding: .75rem;
 		color: #555;
-		width: 100%;
+		width 100%;
 		max-width: 20rem;
 		background-color: rgba(0,0,0,0.1);
-		margin: 5px 0 10px 0;
-	}
-	
-	form label.danger {
-		display: block;
-		padding: 1rem 0;
-		font-size: .8rem;
-		color: #ab141a;
-	}
-	
-	form label.stormslide {
-		font-size: .8rem;
-		color: #ab141a;
-		display: block;
-		padding: .75rem 0;
+		}
 		
-		
-	}
-	
 	form label.sbs {
 		display: block;
 		padding: .75rem 0;
 		color: #555;
-		
 	}
-	
 	form input.submitBtn {
 		border: none;
 		background-color: #9c2c13;
 		color: white;
 		border-radius: 1rem;
-		padding: .75rem 1.5rem;
 		margin: 0 0 2rem 2%;
-		width: 96%;
+		width 96%
 		max-width: 20rem;
 	}
-	
 	
 	form label.top input:required {
 		border-left: red solid 6px;
 	}
 	
 	form label.top input:required:valid {
-		border-left: green solid 6px;
+			border-left: green solid 6px;
 	}
-	
-	
-	
-	
-	#ratingvalue {
-		margin: 0 15px;
-	}
-
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
