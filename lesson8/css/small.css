@@ -381,6 +381,12 @@ nav ul li.active a {
 	}
 
 
+	.slider {
+		display: flex;
+		align-items: center;
+	}
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
 	content: "";

@@ -34,7 +34,7 @@
             <li><a href="preston-8.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li class="active"><a href="#">Storm Center</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             </ul>
 
@@ -47,10 +47,10 @@
         <form method="get" action="thanks.html"></form>
         <fieldset>
             <legend>Your Information</legend>
-            <Label class="top"> Full Name <input type-"text" name="fullname" pattern="(.*[A-Za-z]){5,}" required> </label>
-            <Label class="top"> Phone <input type-"tel" name="phone" placeholder="1235551234"> </label>
-            <Label class="top"> Email* <input type-"email" name="email" placeholder someone@gmail.com required> </label>
-            <Label class="top"> Zipcode <input type-"number" name="zip" required </label>
+            <Label class="top"> Full Name <input type ="text" name="fullname" pattern="(.*[A-Za-z]){5,}" required> </label>
+            <Label class="top"> Phone <input type = "tel" name="phone" placeholder="2085551234"> </label>
+            <Label class="top"> Email* <input type = "email" name="email" placeholder ="someone@gmail.com" required> </label>
+            <Label class="top"> Zipcode <input type = "number" name="zip" required> </label>
                 </fieldset>
 
         <fieldset>
@@ -68,12 +68,12 @@
             </datalist>
             
             		
-			<label class="stormslide">Storm Severity &nbsp;&nbsp;&nbsp;
+			<label class="slider">Storm Severity &nbsp;&nbsp;&nbsp;
                 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmark" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                 
         
-                    <datalist id="mark">
+                    <datalist id="tickmark">
                     <option value="0">
                     <option value="1">
                     <option value="2">
@@ -107,7 +107,7 @@
                 <fieldset>
                     <legend>Additional Information or Comments
                     </legend>
-                    <textarea name="comments" placeholder="Enter Comments Here . . ." rows="10" cols="40"></textarea>
+                    <textarea name="comments" placeholder="Enter any comments about your storm here . . ." rows="12" cols="50"></textarea>
                 </fieldset>
                 
                 
@@ -115,7 +115,7 @@
                 <input type="submit" value="Report a Storm" class="submitBtn">
 
 
-            </form>              
+                        
     </main>
 
 
@@ -125,7 +125,7 @@
               </footer>
 
 <script src = "js/friday.js"></script>
-<script src = "js/function.js"></script>
+<script src = "js/slider.js"></script>
 <script src="js/slider.js"></script>
 <script src = "js/toggle.js"></script>
 <script src = "js/date.js"></script>
