@@ -362,17 +362,22 @@ nav ul li.active a {
 	}
 	
 	form label.top input:required {
-		border-left: red solid 6px;
+		border-left: red solid 10px;
 	}
 	
 	form label.top input:required:valid {
-			border-left: green solid 6px;
+			border-left: green solid 10px;
 	}
 
 
 	.slider {
 		display: flex;
 		align-items: center;
+		padding: 10px;
+		margin-top: 20px;
+	}
+	.danger {
+		padding:6px;
 	}
 
 	form label.top input, form label.top select {
@@ -383,7 +388,7 @@ nav ul li.active a {
 		border-radius: 4px;
 		padding: .75rem;
 		color: #555;
-		width 100%;
+		width: 100%;
 		max-width: 20rem;
 		background-color: rgba(0,0,0,0.1);
 		}

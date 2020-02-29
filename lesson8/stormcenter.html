@@ -21,9 +21,9 @@
 
     <header>
        
-            <h2> <img src="images/weather7.jpg" alt="logo of sun behind clouds"> Your Weather Place</h2>
+            <h1> <img src="images/weather7.jpg" alt="logo of sun behind clouds"> Your Weather Place</h2>
             <p id="friday"></p>
-            <h3> All your weather needs in one place. </h3>
+            <h2> All your weather needs in one place. </h2>
             
     </header>
 
@@ -41,16 +41,17 @@
     </nav>
     <main>
 
-        <h1>Storm Center</h1>
+        <h3>Storm Center</h3>
         <h4>This page is for you to report storms in your area</h4>
+      
 
-        <form method="get" action="thanks.html"></form>
+        <form method="get" action="thanks.html">
         <fieldset>
             <legend>Your Information</legend>
-            <Label class="top"> Full Name <input type ="text" name="fullname" pattern="(.*[A-Za-z]){5,}" required> </label>
-            <Label class="top"> Phone <input type = "tel" name="phone" placeholder="2085551234"> </label>
+            <Label class="top"> Full Name <input type ="text" name="fullname" pattern="(.*[A-Za-z]){5,}" placeholder = "First & Last name" required> </label>
+            <Label class="top"> Phone <input type = "tel" name="phone" placeholder="2085551234" required> </label>
             <Label class="top"> Email* <input type = "email" name="email" placeholder ="someone@gmail.com" required> </label>
-            <Label class="top"> Zipcode <input type = "number" name="zip" required> </label>
+            <Label class="top"> Zipcode <input type = "number" name="zip"placeholder="12345" required> </label>
                 </fieldset>
 
         <fieldset>
@@ -113,6 +114,7 @@
                 
             
                 <input type="submit" value="Report a Storm" class="submitBtn">
+            </form>
 
 
                         
@@ -126,18 +128,11 @@
 
 <script src = "js/friday.js"></script>
 <script src = "js/slider.js"></script>
-<script src="js/slider.js"></script>
 <script src = "js/toggle.js"></script>
 <script src = "js/date.js"></script>
 <script src = "js/year.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script>
-  WebFont.load({
-    google: {
-      families: ['Roboto', 'Raleway']
-    }
-  });
-</script>
+<script src= "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src= "js/webfont.js"> </script>
 
     </body>
     </html>
