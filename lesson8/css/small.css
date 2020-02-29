@@ -344,7 +344,6 @@ nav ul li.active a {
 		font-size: .8rem;
 	}
 	
-
 		
 	form label.sbs {
 		display: block;
@@ -353,12 +352,13 @@ nav ul li.active a {
 	}
 	form input.submitBtn {
 		border: none;
-		background-color: #9c2c13;
+		background-color: blue;
 		color: white;
-		border-radius: 1rem;
+		border-radius: 2rem;
 		margin: 0 0 2rem 2%;
 		width: 96%;
 		max-width: 20rem;
+		height: 52px;
 	}
 	
 	form label.top input:required {
