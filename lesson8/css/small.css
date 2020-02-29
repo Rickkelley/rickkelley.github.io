@@ -340,7 +340,7 @@ nav ul li.active a {
 	form label.top, form div {
 		display: block;
 		padding-top: 1rem;
-		color: #9c2c13;
+		color: red;
 		font-size: .8rem;
 	}
 	
@@ -362,11 +362,11 @@ nav ul li.active a {
 	}
 	
 	form label.top input:required {
-		border-left: red solid 10px;
+		border-left: red solid 12px;
 	}
 	
 	form label.top input:required:valid {
-			border-left: green solid 10px;
+			border-left: green solid 12px;
 	}
 
 
