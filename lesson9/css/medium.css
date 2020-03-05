@@ -66,4 +66,13 @@ div.gallgrid {
 	padding: 10px;
 	
 }
+div.towns section {
+	display: grid;
+	background-color: #e6e600;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.towns section img {
+	float: right;
+}
 }

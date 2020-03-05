@@ -6,35 +6,42 @@ fetch(requestURL)
   })
   .then(function(jsonObject) {
     console.table(jsonObject);	// temporary checking for valid response and data parsing
-	const prophets = jsonObject['towndata'];
+	const towns = jsonObject['towns'];
+	
+	let towndata = [towns[1], towns[4], towns[5]];
 
 for (let i = 0; i < towndata.length; i++ ) {
 let card = document.createElement('section');
-let h1 = document.createElement('h1');
+
 let h2 = document.createElement('h2');
 let p = document.createElement("p");
-let tyf = document.createElement("p");
+let motto = document.createElement("h3");
+let year = document.createElement("p");
 let pop = document.createElement("p");
-let arf = document.createElement("p");
+let wtr = document.createElement("p");
 let img = document.createElement("img");
 
-h1.textContent = towndata[i].name;
-h2.textContent = towndata[i].motto;
-tyf.textContent = "Year Founded: " + towndata[i].yearFounded;
-pop.textContent = "Current Population: " + towndata[i].currentPopulation;
-arf.textContent = "Average Annual Rain Fall: " + towndata[i].averageRainfall;
-img.setAttribute('src',towndata[i].photo);
-img.setAttribute('alt',towndata[i].name + " Idaho")
 
-card.appendChild(h1);
+h2.textContent = towndata[i].name; 
+motto.textContent = towndata[i].motto;
+year.textContent = "Year Founded: " + towndata[i].yearFounded;
+pop.textContent = "Population: " + towndata[i].currentPopulation;
+wtr.textContent = "Annual Rainfall: " + towndata[i].averageRainfall;
+
+img.setAttribute('src', 'images/' + towndata[i].photo);
+img.setAttribute('alt', towndata[i].name);
+
 card.appendChild(h2);
 card.appendChild(p);
+card.appendChild(motto);
+card.appendChild(year);
 card.appendChild(pop);
-card.appendChild(tyf);
-card.appendChild(arf);
+card.appendChild(wtr);
 card.appendChild(img);
 
-document.querySelector('div.cards').appendChild(card);
+
+  
+document.querySelector('div.towns').appendChild(card);
 
 }
-  }); 
+  });
