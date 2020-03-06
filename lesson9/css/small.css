@@ -395,25 +395,50 @@ nav ul li.active a {
 		}
 
 		/*----index page----*/
-		div.towns {
-			display: grid;
-			grid-template-columns: 1fr;
-			
-			padding: 16px;
-			background-color: skyblue;
-			margin: 16px;
-			grid-gap: 22px;
-			
+		main{
+			width: 100%;
+			padding: 10px 0;
+			background-color: blanchedalmond;
 		}
 
-		div.towns section img {
-			width: 100%;
-		}
-		div.towns p, div.towns h2, div.towns h3 {
-			background-color: #e6e600;
-			margin: 0;
+		
+		.town-card{
+			display: flex;
+			flex-direction: column;
 			text-align: center;
-			
+			background-color: skyblue;
+			margin: 12px auto;
+			border: 1px solid black;
+		}
+		
+		img.town-photo{
+			width:100%;
+		}
+		
+		h2.town-name{
+			margin: 0;
+		}
+		p.town-motto{
+			margin: 0;
+		}
+		.town-info{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			flex-grow: 1;
+		}
+		.info-item>div{
+			display: inline-block;
+		}
+		.info-value{
+			padding-left: 6px;
+		}
+		.town-body{
+			display: flex;
+		}
+		.town-header{
+			display: flex;
+			flex-direction: column;
 		}
 		
 /*----- Clearfix: Force an Element not to collapse -----*/

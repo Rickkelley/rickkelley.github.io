@@ -66,13 +66,20 @@ div.gallgrid {
 	padding: 10px;
 	
 }
-div.towns section {
-	display: grid;
-	background-color: #e6e600;
-    grid-template-columns: 1fr 1fr;
+
+/* Index */
+
+.town-card{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	background-color: skyblue;
+	max-width: 350px;
+	margin: 12px auto;
+	border: 1px solid black;
+}
+.town-card:nth-child(odd) {
+flex-direction: row-reverse;
 }
 
-div.towns section img {
-	float: right;
-}
 }

@@ -48,25 +48,22 @@ div.gallgrid {
 	background-color: #fff9cc;
 	box-shadow: 0px 0px 10px 0px gray;
 }
-div.towns section {
-	display: block;
-	background-color: #e6e600;
+/* index */
+
+.town-card{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: skyblue;
+	max-width: 350px;
+	margin: 12px auto;
 	border: 1px solid black;
 }
-
-div.towns {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding: 15px;
-	background-color: #e6e600;
-	margin: 16px;
-	grid-gap: 20px;
-	grid-template-rows: 1fr;
-}
-
-div.towns p, div.towns h2, div.towns h3 {
-	text-align: center;
-	
+.town-card:nth-child(odd) {
+	flex-direction: row;
+	}
+img.town-photo{
+	width:100%;
 }
 
 }
