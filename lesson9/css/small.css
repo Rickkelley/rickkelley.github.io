@@ -401,14 +401,15 @@ nav ul li.active a {
 			background-color: blanchedalmond;
 		}
 
-		
+
 		.town-card{
 			display: flex;
 			flex-direction: column;
 			text-align: center;
 			background-color: skyblue;
-			/*margin: 12px auto; */
+			margin: 12px auto;
 			border: 1px solid black;
+			
 		}
 		
 		img.town-photo{
@@ -444,6 +445,16 @@ nav ul li.active a {
 			padding:6px;
 			margin:4px;
 		}
+		.article img {
+			float:right;
+			height: auto;
+		}
+
+.article {
+	padding: 8px;
+	background-color: tomato;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
 	content: "";
