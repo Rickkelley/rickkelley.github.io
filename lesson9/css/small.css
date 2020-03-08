@@ -414,7 +414,7 @@ nav ul li.active a {
 		img.town-photo{
 			width:100%;
 		}
-		/*
+		
 		h2.town-name{
 			margin: 0;
 		}
@@ -440,7 +440,10 @@ nav ul li.active a {
 			display: flex;
 			flex-direction: column;
 		}
-		*/
+		.article {
+			padding:6px;
+			margin:4px;
+		}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
 	content: "";
