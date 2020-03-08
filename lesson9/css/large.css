@@ -58,8 +58,8 @@ div.gallgrid {
 
 .town-card{
 	display: grid;
-	grid-template-columns: 1fr 1fr
-	grid-gap:20px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
 	text-align: center;
 	background-color: skyblue;
 	margin: 12px auto;
