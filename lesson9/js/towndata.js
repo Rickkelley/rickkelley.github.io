@@ -124,5 +124,7 @@ const windowSize = ( ) => {
         })
 }
 
-window.onresize = windowSize;
+
+ window.onresize = windowSize;
+
     

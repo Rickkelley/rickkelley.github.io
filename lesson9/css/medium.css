@@ -73,13 +73,12 @@ div.gallgrid {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	background-color: skyblue;
-	max-width: 350px;
 	margin: 12px auto;
 	border: 1px solid black;
 }
 .town-card:nth-child(odd) {
 flex-direction: row-reverse;
+max-width: 63rem;
 }
 
 }

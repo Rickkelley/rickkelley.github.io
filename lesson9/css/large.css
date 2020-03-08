@@ -50,20 +50,28 @@ div.gallgrid {
 }
 /* index */
 
+.towns {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
 .town-card{
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr 1fr
+	grid-gap:20px;
 	text-align: center;
 	background-color: skyblue;
-	max-width: 350px;
 	margin: 12px auto;
 	border: 1px solid black;
+	width:90%;
+	
+		
 }
-.town-card:nth-child(odd) {
-	flex-direction: row;
-	}
+
 img.town-photo{
 	width:100%;
+	height: auto;
 }
 
 }
