@@ -7,8 +7,18 @@ fetch(apiURL)
     ('#current-temp');
     const weatherIcon = document.querySelector
     ('imagesrc');
+    const windy = document.querySelector
+    ('#wind-speed');
+    const soggy = document.querySelector
+    ('#soggy');
+    const currently = document.querySelector
+    ('#currently');
 
+    currently.textContent - jsObject.weather[0].main;
+    soggy.textContent = jsobject.main.humidity;
+    windy.textContent = jsObject.wind.speed;
     currenttemp.textContent = jsObject.main.temp;
+    
 
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;  
 const desc = jsObject.weather[0].description;  // note how we reference the weather array

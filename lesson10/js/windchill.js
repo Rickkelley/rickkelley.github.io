@@ -1,4 +1,4 @@
-const temperature = parseFloat(document.getElementById("temp").textContent);
+const temperature = parseFloat(document.getElementById("current-temp").textContent);
 
 const windspeed = parseFloat(document.getElementById("speed").textContent);
 
