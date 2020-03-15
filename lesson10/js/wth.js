@@ -63,7 +63,7 @@ fetch(apiURLforecast)
 		
 		//console.log(weatherFore.city.name);
 		
-		document.getElementById("townName").innerHTML=weatherFore.city.name;
+		// document.getElementById("townName").innerHTML=weatherFore.city.name;
 		
 let mylist = weatherFore.list;
 

@@ -454,11 +454,10 @@ nav ul li.active a {
 	padding: 8px;
 	background-color: tomato;
 }
-.forecast {
-	display: flex;
-	flex-direction: column;
-}	
 
+#weatherforecast div {
+	display: none;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

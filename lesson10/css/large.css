@@ -73,5 +73,10 @@ img.town-photo{
 	width:100%;
 	height: auto;
 }
+#weatherforecast {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 0;
+}
 
 }
