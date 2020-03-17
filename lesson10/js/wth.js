@@ -3,13 +3,12 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-    //Once it comes back, display it to the console.
-    //console.log(weatherInfo);
+
 		
 	let windchill = 35.74 + (0.6215 * weatherInfo.main.temp) - (35.75 * Math.pow(weatherInfo.wind.speed, 0.16)) + (0.4275 * weatherInfo.main.temp * Math.pow(weatherInfo.wind.speed, 0.16));
-//	console.log(windchill);
+
 	freeze = Math.round(windchill);
-//	console.log(freeze);
+
 	
 	if(weatherInfo.main.temp<=50  &&  weatherInfo.wind.speed >3) {
 		document.getElementById("chill").textContent = "Wind Chill: "+freeze+"\xB0F";
@@ -27,10 +26,10 @@ fetch(apiURL)
     document.getElementById("soggy").innerHTML=weatherInfo.main.humidity;
 	
 	const iconcode = weatherInfo.weather[0].icon;
-	//console.log(iconcode);
+	
 	
 	const icon_path="//openweathermap.org/img/w/" + iconcode + ".png";
-	//console.log(icon_path);
+	
 		
 
 	
@@ -41,7 +40,7 @@ fetch(apiURL)
 const d = date = new Date();
 
 const todayDayNumber = d.getDay();
-//console.log(todayDayNumber);
+
 
 const myweekday = new Array(7);
 
@@ -53,28 +52,24 @@ myweekday[4] = "Thursday";
 myweekday[5] = "Friday";
 myweekday[6] = "Saturday";
 
-//console.log(myweekday[3]);
+
 
 const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=de4d915acebca03c6051dc7bcf9d513d";
 fetch(apiURLforecast)
 	.then((response) => response.json())
 	.then((weatherFore) => {
-		//console.log(weatherFore);
-		
-		//console.log(weatherFore.city.name);
-		
-		// document.getElementById("townName").innerHTML=weatherFore.city.name;
+
 		
 let mylist = weatherFore.list;
 
 let forecastDayNumber = todayDayNumber;
-	//console.log(forecastDayNumber);
+
 
 	for (i=0; i<mylist.length; i++) {
 		
 		let time = mylist[i].dt_txt;
 		if(time.includes("18:00:00")) {
-			//console.log("Found an entry with 18:00:00 in the time. It was report " +i+ " from the mylist of 40");
+			
 			forecastDayNumber +=1;
 			if(forecastDayNumber ===7) {
 				forecastDayNumber = 0;
@@ -83,7 +78,7 @@ let forecastDayNumber = todayDayNumber;
 			
 			let theDayName = document.createElement("h4");
 			theDayName.textContent = myweekday[forecastDayNumber];
-			//console.log(">"+myweekday[forecastDayNumber]);
+			
 			
 			let theTemp = document.createElement("p");
 			theTemp.textContent = weatherFore.list[i].main.temp + "\xB0";

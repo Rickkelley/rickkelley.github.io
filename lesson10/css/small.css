@@ -95,20 +95,25 @@ header {
 }
 
 .contact {
-	padding-top:16px;
+	padding-top: 6px;
+	margin-bottom: 1px;
+	max-height: 4200px;
+	display: flex;
 }
+
 
 footer {
 	background-color: #e6e600;
 	width: 100%;
 	border-top: 1px black solid;
-	margin-top: 24px;
+	margin-top: 26px;
 	height: auto;
 	position: fixed;
 	left: 0px;
 	bottom:0px;
-	max-height: 100px;
+	max-height: 160px;
 	text-align: center;
+	margin-bottom: 2px;
 }
 
 nav {
@@ -196,22 +201,26 @@ nav ul li.active a {
 	display: block;
 }
 .contact {
-	max-height: 400px;
+	max-height: 800px;
+}
+.gmap {
+	box-sizing: border-box;
 }
 
 #social li {
 	display: inline;
+	max-height: 100px;
 }
 
 #social {
 	display: inline;
+	max-height: 122px;
+	
 }
 .contact {
 	height: auto;
 }
-#map {
-	display:none;
-}
+
 
 .fa {
 	padding: 10px;
