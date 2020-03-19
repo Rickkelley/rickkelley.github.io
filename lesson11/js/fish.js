@@ -88,6 +88,7 @@ let forecastDayNumber = todayDayNumber;
 			
 			let theIcon = document.createElement("img");
 			theIcon.src=iconPath;
+			theIcon.alt = weatherFore.list[i].weather[0].description;
 			
 			let theDay = document.createElement("div");
 			theDay.appendChild(theDayName);
