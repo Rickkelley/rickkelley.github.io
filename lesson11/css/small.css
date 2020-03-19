@@ -458,22 +458,36 @@ nav ul li.active a {
 			display: flex;
 			flex-direction: column;
 		}
-		.article {
-			padding:6px;
-			margin:4px;
-		}
+
 		.article img {
 			float:right;
 			height: auto;
+			padding-bottom: 26px;
 		}
 
 .article {
-	padding: 8px;
+	padding-bottom: 40px;
 	background-color: tomato;
+	margin:4px;
+}
+
+.sodaarticle {
+	padding-bottom: 40px;
+	background-color: snow;
+	margin:4px;
 }
 
 #weatherforecast div {
 	display: none;
+}
+
+.upcoming {
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 320px;
+	color:blue;
+	
+	
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

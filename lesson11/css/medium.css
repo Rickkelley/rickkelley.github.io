@@ -99,7 +99,7 @@ max-width: 63rem;
 	display:flex;
 	flex-direction: column;
 	border: 2px solid black;
-	background-color: snow;
+	background-color: whitesmoke;
 }
 
 #weatherforecast p {
@@ -121,7 +121,7 @@ width: 100px;
    background-color: skyblue;
 	text-align: center;
 	font-weight: bold;
-	color: rgba(171,20,26,1);
+	color: red;
 	opacity: .8;
 	margin: 0;
 	padding: 1rem 0;

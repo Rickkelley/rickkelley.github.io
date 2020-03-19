@@ -11,7 +11,7 @@ fetch(requestURLevents)
 
 
 for (let i = 0; i < towns.length; i++ ) {
-    if (towns[i].name == "Soda Springs"){
+    if (towns[i].name == "Preston"){
 		
 let card = document.createElement('section');
 let h2 = document.createElement('h2');
