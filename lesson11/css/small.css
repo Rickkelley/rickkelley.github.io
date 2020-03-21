@@ -469,6 +469,8 @@ nav ul li.active a {
 	padding-bottom: 40px;
 	background-color: tomato;
 	margin:4px;
+	max-width: 80%;
+	margin: auto;
 }
 
 .sodaarticle {
