@@ -1,6 +1,37 @@
 "guides"" [
 
-
     "name": "Franklin",
     "lastname": "Jones",
+    "nunofchildren": 3,
+    "age": 32,
+    "years": 8,
+    "married": "Married",
+},
+{
+    "name": "Joseph",
+    "lastname": "Johansen",
+    "nunofchildren": 4,
+    "age": 42,
+    "years": 12,
+    "married": "Married",
+},
+{
+    "name": "Brock",
+    "lastname": "Smith",
+    "nunofchildren": 1,
+    "age": 26,
+    "years": 5,
+    "married": "Married",
+},
+{
+    "name": "George",
+    "lastname": "Barnes",
+    "nunofchildren": 0,
+    "age": 30,
+    "years": 12,
+    "married": "Single",
+}
+
+ ]
+}
     
