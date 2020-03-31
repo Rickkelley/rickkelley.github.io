@@ -1,21 +1,12 @@
-"guides" [
 {
-    "name": "Franklin",
-    "lastname": "Jones",
-    "married": "Married",
-    "cert": "Raft Trip Leader",
-    "email": "franklin@srrafting.com",
-    "biography": "Franklin is 32 years old, and married to his high school sweetheart Joanne. Together they have have had 3 wonderful children. Having grown up near the river he has many fond memories of rafting with his parents while growing up. He has over 10 years experience as a river rafting guide on several different rivers, and has been with us here at Salmon River for 4 of those.", 
-    "imageurl": "https://rickkelley.github.io/finalpage/images/franklin.jpg"
-},
-
+"guides": [
 {
-    "name": "Joseph",
-    "lastname": "Johansen",
-    "cert": "InLine Raft Trip Leader, Safety Kayaker, and Instructor",
-    "email": "joseph@srrafting.com",
-    "biography": "Joseph is 43 years old, and is married to the love of his life Ann. He tells us the story that on his honeymoon Ann told him as soon as she had her little girl she was not having any more children. Which today they have 9 children, 8 of them boys. While Ann tells us she is not overly 'fond' of rafting, all of his children enjoy it. Joseph loves Kayaking almost as much as rafting, and has held certifications for both for the last 25 years.",
-    "imageurl": "https://rickkelley.github.io/finalpage/images/joseph.jpg"
+    "name": "George",
+    "lastname": "Barnes",
+    "email": "george@srrafting.com",
+    "cert": "Assessor, InLine Raft Guide, InLine Safety Rafter, Safety Kayaker, Inline Raft Trip Leader, Instructor",
+    "biography": "George is the 'old man' of our group, at 59 years old. He has been certifed for the last 40 years, and in those years he has done it all. George is the only guide we have currently that can take a guided trip on class V rapids, the most extreme you would ever dare in a raft. Kayaks only on the class VI, but yes George has done those to. George is a cancer survivor, and recent widower with 4 children of his own. George and his wife Karen also adopted 6 children over the years, and current has 22 grandkids, and 3 great grand children. All of which can't wait for their turn to go rafting with him.",
+    "imageurl": "https://rickkelley.github.io/finalpage/images/george.jpg"
 },
 {
     "name": "Brock",
@@ -26,15 +17,22 @@
     "imageurl": "https://rickkelley.github.io/finalpage/images/brock.jpg"
 },
 {
-    "name": "George",
-    "lastname": "Barnes",
-    "email": "george@srrafting.com",
-    "cert": "Assessor, InLine Raft Guide, InLine Safety Rafter, Safety Kayaker, Inline Raft Trip Leader, Instructor",
-    "biography": "George is the 'old man' of our group, at 59 years old. He has been certifed for the last 40 years, and in those years he has done it all. George is the only guide we have currently that can take a guided trip on class V rapids, the most extreme you would ever dare in a raft. Kayaks only on the class VI, but yes George has done those to. George is a cancer survivor, and recent widower with 4 children of his own. George and his wife Karen also adopted 6 children over the years, and current has 22 grandkids, and 3 great grand children. All of which can't wait for their turn to go rafting with him.",
-    "imageurl": "https://rickkelley.github.io/finalpage/images/george.jpg"
-
+    "name": "Joseph",
+    "lastname": "Johansen",
+    "cert": "InLine Raft Trip Leader, Safety Kayaker, and Instructor",
+    "email": "joseph@srrafting.com",
+    "biography": "Joseph is 43 years old, and is married to the love of his life Ann. He tells us the story that on his honeymoon Ann told him as soon as she had her little girl she was not having any more children. Which today they have 9 children, 8 of them boys. While Ann tells us she is not overly 'fond' of rafting, all of his children enjoy it. Joseph loves Kayaking almost as much as rafting, and has held certifications for both for the last 25 years.",
+    "imageurl": "https://rickkelley.github.io/finalpage/images/joseph.jpg"
+},
+{
+    "name": "Franklin",
+    "lastname": "Jones",
+    "married": "Married",
+    "cert": "Raft Trip Leader",
+    "email": "franklin@srrafting.com",
+    "biography": "Franklin is 32 years old, and married to his high school sweetheart Joanne. Together they have have had 3 wonderful children. Having grown up near the river he has many fond memories of rafting with his parents while growing up. He has over 10 years experience as a river rafting guide on several different rivers, and has been with us here at Salmon River for 4 of those.", 
+    "imageurl": "https://rickkelley.github.io/finalpage/images/franklin.jpg"
 }
 
- ]
+]
 }
-    
