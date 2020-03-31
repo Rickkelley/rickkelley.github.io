@@ -1,35 +1,35 @@
-"guides"" [
-
+"guides" [
+{
     "name": "Franklin",
     "lastname": "Jones",
-    "nunofchildren": 3,
-    "age": 32,
-    "years": 8,
     "married": "Married",
+    "cert": "Raft Trip Leader",
+    "email": "franklin@srrafting.com",
+    "biography": "Franklin is 32 years old, and married to his high school sweetheart Joanne. Together they have have had 3 wonderful children. Having grown up near the river he has many fond memories of rafting with his parents while growing up. He has over 10 years experience as a river rafting guide on several different rivers, and has been with us here at Salmon River for 4 of those.", 
+
 },
+
 {
     "name": "Joseph",
     "lastname": "Johansen",
-    "nunofchildren": 4,
-    "age": 42,
-    "years": 12,
-    "married": "Married",
+    "cert": "InLine Raft Trip Leader, Safety Kayaker, and Instructor",
+    "email": "joseph@srrafting.com",
+    "biography": "Joseph is 43 years old, and is married to the love of his life Ann. He tells us the story that on his honeymoon Ann told him as soon as she had her little girl she was not having any more children. Which today they have 9 children, 8 of them boys. While Ann tells us she is not overly 'fond' of rafting, all of his children enjoy it. Joseph loves Kayaking almost as much as rafting, and has held certifications for both for the last 25 years.",
 },
 {
     "name": "Brock",
     "lastname": "Smith",
-    "nunofchildren": 1,
-    "age": 26,
-    "years": 5,
-    "married": "Married",
+    "email": "brock@srrafting.com",
+    "cert": "Raft Trip Leader",
+    "biography": "Brock is the baby of our family at only 22 years old. Brock grew up in the small town of Dutch John Utah, growing up his father had the job of taking tours down the green river. He enjoyed those trips he was able to make with his father so much, he decided to join the profession himself. His father being an instructor as well as a river guide, was able to assist him in earning his first river rafting certification at the age of 16. Brock is still single, but as the oldest of 6 children found himself the designated 'babysitter' for his younger siblings quite often. ",
 },
 {
     "name": "George",
     "lastname": "Barnes",
-    "nunofchildren": 0,
-    "age": 30,
-    "years": 12,
-    "married": "Single",
+    "email": "george@srrafting.com",
+    "cert": "Assessor, InLine Raft Guide, InLine Safety Rafter, Safety Kayaker, Inline Raft Trip Leader, Instructor",
+    "biography": "George is the 'old man' of our group, at 59 years old. He has been certifed for the last 40 years, and in those years he has done it all. George is the only guide we have currently that can take a guided trip on class V rapids, the most extreme you would ever dare in a raft. Kayaks only on the class VI, but yes George has done those to. George is a cancer survivor, and recent widower with 4 children of his own. George and his wife Karen also adopted 6 children over the years, and current has 22 grandkids, and 3 great grand children. All of which can't wait for their turn to go rafting with him.",
+
 }
 
  ]
