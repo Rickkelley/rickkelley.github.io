@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-family: 'Noto Serif, serif;'
+}
+
+picture img[data-src] {
+	filter: blur(0.2em);
+}
+
+picture img {
+	filter: blur(0em);
+	transition: filter 0.5s;
+	border: 6px solid blue;
+	margin: 6px;
+	min-width: 300px;
+}

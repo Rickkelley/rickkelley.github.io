@@ -1,0 +1,134 @@
+@media only screen and (min-width: 36rem) {
+
+#hero {
+  max-width: 34em;
+}
+nav a {
+    font-size: 1rem;
+}
+main {
+    grid-template-columns: 1fr 1fr;
+}
+article:nth-child(3) {
+    grid-column: span 2;
+}
+
+
+#map {
+  display: block;
+  position: relative;
+  bottom: 10px;
+  right: 4px;
+  float: right;
+  padding-bottom: 80px;
+  padding-top: 26px;
+}
+
+.contact {
+	padding-top:86px;
+}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellowgreen;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
+
+article img { 
+  box-shadow:  0 0 30px #444;
+  float: right;
+  border-radius: 0 10px 0 0;
+}
+#gun {
+  max-width: 30em;
+  padding-bottom: 40px;
+}
+
+/* Gallery */
+
+div.gallgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	padding: 10px;
+}
+.desc {
+	padding: 10px;
+	
+}
+
+/* Index */
+
+.town-card{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 12px auto;
+	border: 1px solid black;
+}
+.town-card:nth-child(odd) {
+flex-direction: row-reverse;
+max-width: 63rem;
+}
+
+.forecastinfo {
+	display: block;
+}
+
+#weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+	grid-gap: 10px;
+	padding: 15px;
+    
+}
+
+#weatherforecast div {
+	display:flex;
+	flex-direction: column;
+	border: 2px solid black;
+	background-color: white;
+	
+}
+
+#weatherforecast p {
+text-align: center;
+color: black;
+
+}
+
+#weatherforecast img {
+
+width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#weatherforecast div h4 {
+  
+   background-color: skyblue;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	opacity: .8;
+	margin: 0;
+	padding: 1rem 0;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+
+}

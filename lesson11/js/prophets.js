@@ -28,8 +28,8 @@ img.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + - + prop
 
 card.appendChild(h2);
 card.appendChild(p);
-card.appendChild(pbd)
-card.appendChild(pbp)
+card.appendChild(pbd);
+card.appendChild(pbp);
 card.appendChild(img);
 
 

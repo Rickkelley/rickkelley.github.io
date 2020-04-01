@@ -32,8 +32,9 @@ img.setAttribute('alt', guides[i].name + ' ' + guides[i].lastname);
 
 card.appendChild(h2);
 card.appendChild(cert);
-card.appendChild(email)
+card.appendChild(email);
 card.appendChild(bio);
+card.appendChild(img);
 
 
   

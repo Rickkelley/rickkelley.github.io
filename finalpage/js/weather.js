@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=de4d915acebca03c6051dc7bcf9d513d";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83549,us&units=imperial&APPID=de4d915acebca03c6051dc7bcf9d513d";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -55,7 +55,7 @@ myweekday[6] = "Saturday";
 
 
 
-const apiURLforecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=de4d915acebca03c6051dc7bcf9d513d";
+const apiURLforecast = "https://api.openweathermap.org/data/2.5/zip=83549&units=imperial&APPID=de4d915acebca03c6051dc7bcf9d513d";
 fetch(apiURLforecast)
 	.then((response) => response.json())
 	.then((weatherFore) => {
