@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment Portal for Rick Kelley</title>
+    <meta name="author" content= "Rick Kelley">
+    <link rel="Weather icon" href="images/favicon.ico">
+    <meta name="description" content= "Salmon River Adventures River Rafting"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    </head>
+<body>
+
+    <header>
+       
+        <h1> <img src="images/logo.jpg" alt="logo of a raft"> Salmon River Adventures River Rafting</h1>
+        
+        </header>
+
+    <nav class = menu>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="guides.html">Our Guides</a></li>
+            <li><a href="Tours.html">Tour/rental Information</a></li>
+            <li><a href="reserve.html">Make a Reservationn</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+</nav>
+    <main>
+
+        <h1>Contact Us</h1>
+        <h2>Any questions, comments you may have please use this form</h2>
+      
+
+        <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Your Information</legend>
+            <Label class="top"> Full Name <input type ="text" name="fullname" pattern="(.*[A-Za-z]){5,}" placeholder = "First & Last name" required> </label>
+            <Label class="top"> Phone <input type = "tel" name="phone" placeholder="2085551234" required> </label>
+            <Label class="top"> Email* <input type = "email" name="email" placeholder ="someone@gmail.com" required> </label>
+            <Label class="top"> Zipcode <input type = "number" name="zip" placeholder="12345" required> </label>
+                </fieldset>
+
+        <fieldset>
+                              
+                    <div>Would you like a reply?</div>
+                    
+                    <label class="answer"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="answer"><input type="radio" name="danger" value="no"> No</label>
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Additional Information or Comments
+                    </legend>
+                    
+                    <textarea name="comments" placeholder="Enter your info here . . ." rows="12" cols="50"></textarea>
+                
+                </fieldset>
+                
+                
+            
+                <input type="submit" value="Send us your message" class="submitBtn">
+            </form>
+
+
+                        
+    </main>
+
+
+    <footer class="footer">
+        <h3> <span id="current-year">&#x24B8;</span> Salmon River Adventures</h3>   
+        <ul id=social>
+            <li><a href="http://www.facebook.com" class="fa fa-facebook" aria-label="Facebook"></a></li>
+            <li><a href="http://www.twitter.com" class="fa fa-twitter" aria-label="Twitter"></a></li>
+            <li><a href="http://www.google.com" class="fa fa-google" aria-label="Google"></a> </li>
+            <li> <a href="http://www.linkedin.com" class="fa fa-linkedin" aria-label="Linked-In"></a> </li>
+            <li><a href="http://www.youtube.com" class="fa fa-youtube" aria-label="YouTube"></a> </li>
+            <li> <a href="http://www.instagram.com" class="fa fa-instagram" aria-label="Instagram"></a> </li>
+            <li> <a href="http://ww.pintrest.com" class="fa fa-pinterest" aria-label="Pintrest"></a> </li>
+            <li> <a href="http://www.snapchat.com" class="fa fa-snapchat-ghost" aria-label="Snapchat"></a> </li>
+            <li><a href="http://www.skype.com" class="fa fa-skype" aria-label="Skype"></a> </li>
+             </ul> 
+      
+              </footer>
+              </main>
+    
+    
+    <script src = "js/lazy-load.js"></script>
+    <script src = "js/toggle.js"></script>
+    <script src = "js/year.js"></script>
+    <script src = "js/weather.js"></script>
+    
+    
+    </body>
+    </html>

@@ -34,9 +34,10 @@ fetch(apiURL)
 		
 
 	
- }); 
+
  
  
+ /*
 
 const d = date = new Date();
 
@@ -105,4 +106,6 @@ let forecastDayNumber = todayDayNumber;
 		
 		
 	});
-	
+	*/
+
+}); 
