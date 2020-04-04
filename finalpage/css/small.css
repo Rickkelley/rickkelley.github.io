@@ -14,13 +14,10 @@ header-img {
 		margin:10px;
 	}
 	#hero {
-		max-width: auto;
+		max-width: 300px;
 		position: relative;
 		height: auto;
-		padding-top: 120px;
-		float: left;
-		margin: 20px
-		
+		padding-top: 60px;
 	}
 	#overlay {
 		position: absolute;
@@ -60,6 +57,11 @@ header-img {
 	.flex div img, table img {
 		border-radius: 100px;
 		padding: 5px;
+	}
+
+#gun {
+	max-width: 480px;
+	height: auto;
 	}
 
 h1, h2, h3, h4 {

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Weather Place page Storm Center</title>
+    <meta name="author" content= "Rick Kelley">
+    <link rel="Weather icon" href="images/favicon.ico">
+    <meta name="description" content= "Your Weather Place page for Preston Idaho"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    
+    </head>
+
+<body> 
+
+    <header>
+       
+            <h2> <img src="images/weather7.jpg" alt="logo of sun behind clouds"> Your Weather Place</h2>
+            <p id="friday"></p>
+            <h2> All your weather needs in one place. </h2>
+            
+    </header>
+
+    <nav class = menu>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="guides.html">Our Guides</a></li>
+            <li class="active"><a href="tour.html">Tours/Rental Information</a></li>
+            <li><a href="faq.html">Frequently Asked Questions</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+
+    </nav>
+    <main>
+
+        <h2>Tour Information / Reservations</h2>
+       
+        <h3>Tour Information</h3>
+
+
+        <table style="width:100%">
+            <tr>
+                <th>Tour Time</th>
+                <th>Rapids Classes</th>
+                <th>Cost</th>
+                <th>Meals Included</th>
+                <th>Age Restrictions</th>
+            </tr>
+            <tr>
+                <td>Half Day(Approximately 4 hours)</td>
+                <td>Class One and Class Two</td>
+                <td>$51 per person</td>
+                <td>None</td>
+                <td>Age 4 and up</td>
+            </tr>
+            <tr>
+                <td>Full Day(Approximately 10 hours)</td>
+                <td>Class One and Class Two</td>
+                <td>$100 per person for a raft trip. $125 per person for a Kayak trip.</td>
+                <td>Lunch</td>
+                <td>Age 4 and up for a raft. Age 10 and up for a Kayak.</td>
+            </tr>
+            <tr>
+                <td>Two days and one night</td>
+                <td>Classes One two and three</td>
+                <td>$600 per person for a raft trip. $650 per person for a kayak trip.</td>
+                <td>Lunch and dinner on day one. Breakfast and lunch on day two.</td>
+                <td>Age 12 and up</td>
+            </tr>
+            <tr>
+                <td>Five days four nights</td>
+                <td>Classes One, two, three, and four</td>
+                <td>$2,000 per person for a raft trip. $2,100 for a kayak trip</td>
+                <td>Lunch and dinner on day one. Breakfast lunch and dinner days two thru four. Breakfast and lunch day five.</td>
+                <td>Age 12 and up</td>
+            </tr>
+            <tr>
+                <td>Five days four nights - Extreme</td>
+                <td>Classes One, two, three, four and five</td>
+                <td>$3,000 per person for a raft trip. $3,400 per person for a kayak trip</td>
+                <td>Lunch and dinner on day one. Breakfast lunch and dinner days two thru four. Breakfast and lunch day five.</td>
+                <td>Age 16 and up for a raft trip. Age 18 and up for a Kayak trip</td>
+    
+            </tr>
+            </table>
+      
+            <h1>Reservations</h1>
+
+        <form method="get" action="thanks2.html">
+        <fieldset>
+            <legend>Your Information</legend>
+            <Label class="top"> Full Name <input type ="text" name="fullname" pattern="(.*[A-Za-z]){5,}" placeholder = "First & Last name" required> </label>
+            <Label class="top"> Phone <input type = "tel" name="phone" placeholder="2085551234" required> </label>
+            <Label class="top"> Email* <input type = "email" name="email" placeholder ="someone@gmail.com" required> </label>
+            <Label class="top"> Billing Address <input type ="text" name="address" pattern="(.*[A-Za-z]){5,}" placeholder = "billing address" required> </label>
+            <Label class="top"> Billing Address Line 2<input type ="text" name="address2" pattern="(.*[A-Za-z]){5,}" placeholder = "if required"> </label>                
+            <Label class="top"> City <input type ="text" name="city" pattern="(.*[A-Za-z]){5,}" placeholder = "city" required> </label>
+            <Label class="top"> State <input type ="text" name="state" pattern="(.*[A-Za-z]){5,}" placeholder = "state" required> </label>    
+            <Label class="top"> Zipcode <input type = "number" name="zip" placeholder="12345" required> </label>
+            
+                </fieldset>
+
+        <fieldset> 
+            <legend>Tour Information</legend>
+            <label class="top">Tour Date Requested<input type="date" name="tourate"></label>
+			<label class="top">Storm Type<input list="tourlist" name="tourtype"></label>
+			<datalist id="tourlist">
+				<option value="Half Day">
+				<option value="Two Days">
+				<option value="Five Days">
+				<option value="Five Days - Extreme">
+        
+            </datalist>
+            
+
+
+                
+                <fieldset>
+                    <legend>Additional Information or Comments
+                    </legend>
+                    
+                    <textarea name="comments" placeholder="Enter any comments or questions you have here . . ." rows="12" cols="50"></textarea>
+                
+                </fieldset>
+                
+                
+            
+                <input type="submit" value="Book a Tour" class="submitBtn">
+            </form>
+
+
+                        
+    </main>
+
+
+    <footer class="footer">
+        <h3> <span id="current-year">&#x24B8;</span>  | Your Weather Place | Designed by Rick Kelley | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></h3>   
+        <span id="datetoday"></span>
+              </footer>
+
+<script src = "js/friday.js"></script>
+<script src = "js/slider.js"></script>
+<script src = "js/toggle.js"></script>
+<script src = "js/date.js"></script>
+<script src = "js/year.js"></script>
+<script src= "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src= "js/webfont.js"> </script>
+
+    </body>
+    </html>
