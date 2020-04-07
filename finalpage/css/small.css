@@ -20,11 +20,7 @@ header-img {
 		padding-top: 60px;
 	}
 	#overlay {
-		position: absolute;
-		top: 120px;
-		left: 16px;
-		background-color: skyblue;
-		opacity: .8;
+		visibility: hidden;
 	}
 	.flex {
 		display: flex;
@@ -491,6 +487,30 @@ nav ul li.active a {
 	
 	
 }
+
+h1,h2,h3.h4.h5.h6 {color: black;}
+
+#content {margin: 0 auto;
+width: 75%;} 
+
+#three {text-align: center;}
+#logo {float:left;
+       display: flex;
+       flex-flow: column;
+       flex-wrap: wrap;}
+.fullwidth { width:100%;}
+.max {max-width: 100%;}
+#row1, #row2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-column, .right-column {
+  width: 40%;}
+  .social {display: flex;
+          float: right;
+          }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
