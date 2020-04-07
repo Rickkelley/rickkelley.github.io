@@ -20,6 +20,11 @@ header-img {
 		padding-top: 60px;
 	}
 	#overlay {
+		position: absolute;
+        top: 80px;
+        left: 16px;
+        background-color: skyblue;
+        opacity: .8;
 		visibility: hidden;
 	}
 	.flex {
