@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Weather Place page Storm Center</title>
+    <title>Salmon River Adventures River Rafting</title>
     <meta name="author" content= "Rick Kelley">
     <link rel="Weather icon" href="images/favicon.ico">
     <meta name="description" content= "Your Weather Place page for Preston Idaho"> 
@@ -103,21 +103,28 @@
             <Label class="top"> City <input type ="text" name="city" pattern="(.*[A-Za-z]){5,}" placeholder = "city" required> </label>
             <Label class="top"> State <input type ="text" name="state" pattern="(.*[A-Za-z]){5,}" placeholder = "state" required> </label>    
             <Label class="top"> Zipcode <input type = "number" name="zip" placeholder="12345" required> </label>
+            <label class="top">Type Of Card<input list="payment" name="paid" required></label>
+                <datalist id="payment">
+                    <option value="American Express">
+                    <option value="Discover">
+                    <option value="MasterCard">
+                    <option value="Visa">
+                        </datalist>
+            <Label class="top"> Credit Card Number <input type = "number" name="card" placeholder="xxxx-xxxx-xxxx-xxxx" required> </label> 
             
                 </fieldset>
 
         <fieldset> 
             <legend>Tour Information</legend>
             <label class="top">Tour Date Requested<input type="date" name="tourate"></label>
-			<label class="top">Storm Type<input list="tourlist" name="tourtype"></label>
+			<label class="top">Tour Desired<input list="tourlist" name="tourtype"></label>
 			<datalist id="tourlist">
 				<option value="Half Day">
 				<option value="Two Days">
 				<option value="Five Days">
 				<option value="Five Days - Extreme">
-        
-            </datalist>
-            
+                    </datalist>
+        </fieldset>
 
 
                 
