@@ -98,26 +98,13 @@
             <Label class="top"> Full Name <input type ="text" name="fullname" pattern="(.*[A-Za-z]){5,}" placeholder = "First & Last name" required> </label>
             <Label class="top"> Phone <input type = "tel" name="phone" placeholder="2085551234" required> </label>
             <Label class="top"> Email* <input type = "email" name="email" placeholder ="someone@gmail.com" required> </label>
-            <Label class="top"> Billing Address <input type ="text" name="address" pattern="(.*[A-Za-z]){5,}" placeholder = "billing address" required> </label>
-            <Label class="top"> Billing Address Line 2<input type ="text" name="address2" pattern="(.*[A-Za-z]){5,}" placeholder = "if required"> </label>                
-            <Label class="top"> City <input type ="text" name="city" pattern="(.*[A-Za-z]){5,}" placeholder = "city" required> </label>
-            <Label class="top"> State <input type ="text" name="state" pattern="(.*[A-Za-z]){5,}" placeholder = "state" required> </label>    
-            <Label class="top"> Zipcode <input type = "number" name="zip" placeholder="12345" required> </label>
-            <label class="top">Type Of Card<input list="payment" name="paid" required></label>
-                <datalist id="payment">
-                    <option value="American Express">
-                    <option value="Discover">
-                    <option value="MasterCard">
-                    <option value="Visa">
-                        </datalist>
-            <Label class="top"> Credit Card Number <input type = "number" name="card" placeholder="xxxx-xxxx-xxxx-xxxx" required> </label> 
-            
+          
                 </fieldset>
 
         <fieldset> 
             <legend>Tour Information</legend>
-            <label class="top">Tour Date Requested<input type="date" name="tourate"></label>
-			<label class="top">Tour Desired<input list="tourlist" name="tourtype"></label>
+            <label class="top">Tour Date Requested<input type="date" name="toudate" required></label>
+			<label class="top">Tour Desired<input list="tourlist" name="tourtype" required></label>
 			<datalist id="tourlist">
 				<option value="Half Day">
 				<option value="Two Days">
@@ -126,13 +113,20 @@
                     </datalist>
         </fieldset>
 
-
+        <fieldset>
+                              
+            <legend>How Should we contact you to obtain payment information?</legend>
+            
+            <label class="answer"><input type="radio" name="pay" value="Phone"> Phone Call</label>
+            <label class="answer"><input type="radio" name="pay" value="E-mail"> E-mail</label>
+            <label class="answer"><input type="radio" name="pay" value="Text"> Text Message</label>
+            
+        </fieldset>
                 
                 <fieldset>
-                    <legend>Additional Information or Comments
-                    </legend>
+                    <legend>Additional Information or Comments(Optional)</legend>
                     
-                    <textarea name="comments" placeholder="Enter any comments or questions you have here . . ." rows="12" cols="50"></textarea>
+                    <textarea label ="Box to enter comments" name="comments" placeholder="Enter any additional comments and or questions regarding your reservation here . . ." rows="12" cols="50"></textarea>
                 
                 </fieldset>
                 
@@ -151,13 +145,11 @@
         <span id="datetoday"></span>
               </footer>
 
-<script src = "js/friday.js"></script>
-<script src = "js/slider.js"></script>
+
+
 <script src = "js/toggle.js"></script>
-<script src = "js/date.js"></script>
 <script src = "js/year.js"></script>
-<script src= "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src= "js/webfont.js"> </script>
+
 
     </body>
     </html>
