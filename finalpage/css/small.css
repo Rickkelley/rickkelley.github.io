@@ -27,6 +27,7 @@ header-img {
         opacity: .8;
 		visibility: hidden;
 	}
+
 	.flex {
 		display: flex;
 		flex-direction: row;
